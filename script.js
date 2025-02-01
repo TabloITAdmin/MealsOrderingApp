@@ -5,9 +5,9 @@ function hideButton(x) {
 
 function checkTime() {
     var currentTime = new Date();
-    var desiredHour = 14; // Set the desired hour (24-hour format) 
+    var desiredHour = 12; // Set the desired hour (24-hour format) 
     var desiredMinute = 0; // Set the desired minute 
-    if (currentTime.getHours() >= 10 && currentTime.getHours() <= 14) {
+    if (currentTime.getHours() >= 10 && currentTime.getHours() <= 13) {
         document.getElementById("form").style.display = "block";
     }
     else {
