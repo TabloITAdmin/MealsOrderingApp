@@ -22,7 +22,7 @@ body {
     line-height: 22px;
     }
 
-img {
+im {
     height: 100px;
     width: 100px;
     border-radius: 100px;
@@ -125,3 +125,4 @@ button {
 .promo {
     color: white;
 }
+
