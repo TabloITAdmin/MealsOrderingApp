@@ -7,7 +7,7 @@ function checkTime() {
     var currentTime = new Date();
     var desiredHour = 12; // Set the desired hour (24-hour format) 
     var desiredMinute = 0; // Set the desired minute 
-    if (currentTime.getHours() >= 10 && currentTime.getHours() <= 13) {
+    if (currentTime.getHours() >= 10 && currentTime.getHours() <= 21) {
         document.getElementById("form").style.display = "block";
     }
     else {
